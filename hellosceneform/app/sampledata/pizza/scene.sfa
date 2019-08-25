@@ -1,0 +1,173 @@
+{
+  materials: [
+    {
+      name: 'pizza',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'pizza_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'pizza_normal',
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'pizza_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'Tarelka001__0',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'Tarelka001__0_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: null,
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 0.79829499999999998,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/pizza/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+    scale: 0.120712,
+  },
+  samplers: [
+    {
+      file: 'sampledata/pizza\\pizza_baseColor.jpeg',
+      name: 'pizza_baseColor',
+      pipeline_name: 'textures/pizza_baseColor.jpeg',
+    },
+    {
+      file: 'sampledata/pizza\\pizza_metallicRoughness.png',
+      name: 'pizza_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/pizza_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/pizza\\pizza_normal.jpeg',
+      name: 'pizza_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/pizza_normal.jpeg',
+    },
+    {
+      file: 'sampledata/pizza\\Tarelka001__0_baseColor.jpeg',
+      name: 'Tarelka001__0_baseColor',
+      pipeline_name: 'textures/Tarelka001__0_baseColor.jpeg',
+    },
+  ],
+  version: '0.54:2',
+}

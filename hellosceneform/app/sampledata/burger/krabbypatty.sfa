@@ -1,0 +1,279 @@
+{
+  materials: [
+    {
+      name: '03 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '13075',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '09 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'green-leaf-lettuce-texture-fresh-top-view-leaves-54906124',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '13 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '0473354',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '08 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'd2139287030e174c419ea2c270075ab4',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '02 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '34648777-the-texture-of-the-crust-of-white-bread-',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '07 - Default',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '162670307-612x612',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/burger/krabbypatty.FBX',
+    name: 'krabbypatty',
+    recenter: 'root',
+    scale: 0.35288700000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/burger\\34648777-the-texture-of-the-crust-of-white-bread-.jpg',
+      name: '34648777-the-texture-of-the-crust-of-white-bread-',
+      pipeline_name: '34648777-the-texture-of-the-crust-of-white-bread-.jpg',
+    },
+    {
+      file: 'sampledata/burger\\13075.jpg',
+      name: '13075',
+      pipeline_name: '13075.jpg',
+    },
+    {
+      file: 'sampledata/burger\\green-leaf-lettuce-texture-fresh-top-view-leaves-54906124.jpg',
+      name: 'green-leaf-lettuce-texture-fresh-top-view-leaves-54906124',
+      pipeline_name: 'green-leaf-lettuce-texture-fresh-top-view-leaves-54906124.jpg',
+    },
+    {
+      file: 'sampledata/burger\\0473354.jpg',
+      name: '0473354',
+      pipeline_name: '0473354.jpg',
+    },
+    {
+      file: 'sampledata/burger\\d2139287030e174c419ea2c270075ab4.jpg',
+      name: 'd2139287030e174c419ea2c270075ab4',
+      pipeline_name: 'd2139287030e174c419ea2c270075ab4.jpg',
+    },
+    {
+      file: 'sampledata/burger\\162670307-612x612.jpg',
+      name: '162670307-612x612',
+      pipeline_name: '162670307-612x612.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

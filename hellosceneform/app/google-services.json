@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "608880707701",
+    "firebase_url": "https://hellosceneform-679ef.firebaseio.com",
+    "project_id": "hellosceneform-679ef",
+    "storage_bucket": "hellosceneform-679ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608880707701:android:b1ff38792532fc62",
+        "android_client_info": {
+          "package_name": "com.aung.hellosceneform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608880707701-ka2tgcsvavj3hmr2rgjtkddfoqatj0u0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aung.hellosceneform",
+            "certificate_hash": "bdf1de6a88ba1788daaf9d53d6d261844386ecc7"
+          }
+        },
+        {
+          "client_id": "608880707701-hmjn3h9uf0lseiseie2jbjobtq2j5ka8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdJJ5tceHN5DUFMK9zMY29ULho8zr5s_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608880707701-hmjn3h9uf0lseiseie2jbjobtq2j5ka8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

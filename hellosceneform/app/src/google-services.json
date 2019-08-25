@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1044625482427",
+    "firebase_url": "https://bite-by-bite.firebaseio.com",
+    "project_id": "bite-by-bite",
+    "storage_bucket": "bite-by-bite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044625482427:android:b1ff38792532fc62",
+        "android_client_info": {
+          "package_name": "com.aung.hellosceneform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044625482427-qe3lks1a9b8feh7mrje3m04hnl8bpj3u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjIXRV0cPcmswW7rsyfEXT08ZWQPToKNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044625482427-qe3lks1a9b8feh7mrje3m04hnl8bpj3u.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1044625482427-ctrvfr4nq2h433f66fkg74ck8agnbr63.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.monash.StandardCyborgExample"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
